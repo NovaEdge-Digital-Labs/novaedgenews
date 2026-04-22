@@ -5,7 +5,7 @@ This guide provides instructions on how to run the NovaEdge News project locally
 ## Project Overview
 
 NovaEdge News is a modern news platform consisting of:
-- **Frontend**: A [Next.js](https://nextjs.org) application located in the root directory.
+- **Frontend**: A [Next.js](https://nextjs.org) application located in the `/frontend` directory.
 - **Backend**: A [NestJS](https://nestjs.com) application located in the `/backend` directory.
 
 ---
@@ -64,12 +64,16 @@ The backend handles data processing, scheduling, and API services.
 ### 3. Frontend Setup
 The frontend is the user interface built with Next.js.
 
-1. From the project root, install dependencies:
+1. Navigate to the frontend directory:
+   ```bash
+   cd frontend
+   ```
+2. Install dependencies:
    ```bash
    npm install
    ```
 2. Configure environment variables (Optional):
-   The frontend defaults to using `http://localhost:3005/api`. To override it, create a `.env.local` in the root:
+   The frontend defaults to using `http://localhost:3005/api`. To override it, create a `.env.local` in the `frontend/` directory:
    ```env
    NEXT_PUBLIC_API_URL=http://localhost:3005/api
    NEXT_PUBLIC_ADSENSE_ID=your_adsense_id
@@ -90,7 +94,7 @@ The frontend is the user interface built with Next.js.
 2. **Connect to Vercel**:
    - Go to [vercel.com](https://vercel.com) and import your repository.
    - Set the **Framework Preset** to `Next.js`.
-   - The **Root Directory** should be the project root.
+   - The **Root Directory** should be `frontend`.
 3. **Configure Environment Variables**:
    In the Vercel dashboard, add the following variables:
    - `NEXT_PUBLIC_API_URL`: Your PRODUCTION backend URL (e.g., `https://api.yourdomain.com/api`).
@@ -141,8 +145,8 @@ To execute a workflow, you can refer to the documentation or ask the AI agent to
 
 | Action | Location | Command |
 | :--- | :--- | :--- |
-| **Run Frontend (Dev)** | Root | `npm run dev` |
-| **Build Frontend** | Root | `npm run build` |
+| **Run Frontend (Dev)** | `/frontend` | `npm run dev` |
+| **Build Frontend** | `/frontend` | `npm run build` |
 | **Run Backend (Dev)** | `/backend` | `npm run dev` |
 | **Build Backend** | `/backend` | `npm build` |
 | **Check Logs** | `/backend` | `npm run logs` (if configured) |
