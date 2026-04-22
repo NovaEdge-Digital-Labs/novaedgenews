@@ -19,8 +19,7 @@ Crawl-delay: 1
 Request-rate: 1/5s
 
 # Sitemap
-Sitemap: ${siteUrl}/api/sitemap
-Sitemap: ${siteUrl}/sitemap-index.xml`;
+Sitemap: ${siteUrl}/sitemap.xml`;
 
     return new Response(robots, {
         headers: { 'Content-Type': 'text/plain' }
