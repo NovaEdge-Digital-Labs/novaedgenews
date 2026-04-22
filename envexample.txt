@@ -1,0 +1,58 @@
+# NovaEdge News - Environment Variables Deployment Guide
+# Copy and paste these into your deployment platform (e.g., Vercel, Render)
+
+# ==========================================
+# BACKEND VARIABLES (Set in Backend Service)
+# ==========================================
+
+PORT=3005
+MONGODB_URI=mongodb://your_production_mongodb_uri
+REDIS_HOST=your_redis_host
+REDIS_PORT=6379
+
+# AI APIs (Get keys at: https://openrouter.ai and https://aistudio.google.com)
+OPENROUTER_API_KEY=your_openrouter_api_key
+GEMINI_API_KEY=your_gemini_api_key
+
+# News Metadata (Get key at: https://newsapi.org)
+NEWS_API_KEY=your_newsapi_key
+DEFAULT_CATEGORY=General
+
+# Distribution & Notifications
+# BotFather: https://t.me/BotFather | SendGrid: https://sendgrid.com
+TELEGRAM_BOT_TOKEN=your_telegram_bot_token
+TELEGRAM_CHAT_ID=your_telegram_chat_id
+SENDGRID_API_KEY=your_sendgrid_api_key
+SENDGRID_FROM_EMAIL=your_verified_sender@domain.com
+NEWSLETTER_ADMIN_EMAIL=admin_notifications@domain.com
+UNSUBSCRIBE_BASE_URL=https://your-frontend-domain.com/unsubscribe
+
+# SEO Configuration (GSC: https://search.google.com/search-console)
+FRONTEND_URL=https://your-frontend-domain.com
+SITE_NAME=NovaEdge News
+SITE_LOGO=https://your-frontend-domain.com/logo.png
+TWITTER_HANDLE=@your_handle
+GOOGLE_SEARCH_CONSOLE_API_KEY=your_gsc_key
+SITEMAP_URL=https://your-frontend-domain.com/sitemap.xml
+BASE_DOMAIN=your-frontend-domain.com
+
+# Database Collections
+DB_NAME=novaedgenews
+COLLECTION_ARTICLES=articles
+COLLECTION_SUBSCRIBERS=subscribers
+COLLECTION_NEWSLETTERS=newsletters
+COLLECTION_SEO_LOGS=seologs
+COLLECTION_SYNC_LOGS=newsletterseologs
+
+# ==========================================
+# FRONTEND VARIABLES (Set in Frontend Service)
+# ==========================================
+
+# Your Production Backend URL
+NEXT_PUBLIC_API_URL=https://your-backend-api-domain.com
+
+# AdSense (Get at: https://adsense.google.com)
+NEXT_PUBLIC_GOOGLE_AD_CLIENT=your-pub-id
+
+# Frontend API access if needed (usually matches backend)
+NEXT_PUBLIC_NEWSLETTER_API=your-api-key
