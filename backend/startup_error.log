@@ -1,0 +1,100 @@
+
+> backend@0.0.1 start
+> nest start
+
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:49 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +18ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mHttpModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDiscoveryModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[AIService] [39m[32mAI Config: OpenRouter: true, Gemini: true[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mScheduleModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mImageModule dependencies initialized[39m[38;5;3m +18ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBullModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBullModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mExtractorModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDistributionModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBullModule dependencies initialized[39m[38;5;3m +6ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseCoreModule dependencies initialized[39m[38;5;3m +22ms[39m
+[33m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [33m   WARN[39m [38;5;3m[NewsletterService] [39m[33mSENDGRID_API_KEY not found. Emails will not be sent.[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPublisherModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mOptimizationModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAutomationQueueModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mSchedulerModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAIModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAnalyticsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mNewsletterModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mNewsDiscoveryModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mPublicModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mNewsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mNewsController {/api/news}:[39m[38;5;3m +4ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/news/analyze, POST} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAIController {/ai}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/ai/rewrite-quick, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/ai/deep-analysis, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/ai/verify, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAnalyticsController {/api/analytics}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/analytics/impression, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/analytics/click, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/analytics/view, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mNewsletterController {/newsletter}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/newsletter/subscribe, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/newsletter/unsubscribe, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/newsletter/unsubscribe, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/newsletter/send-daily-digest, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/newsletter/track-open, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/newsletter/track-click, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mExtractorController {/extractor}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/extractor/extract, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mPublicController {/api}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/sitemap.xml, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/rss.xml, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/articles, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/articles/:slug, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/category/:name, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/trending, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/analytics/trending-list, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/analytics/dashboard, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/analytics/ab-tests, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/editor-picks, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/most-read, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mNewsDiscoveryController {/news-discovery}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/news-discovery/trigger, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[SchedulerService] [39m[32mScheduler Initialized. Sequence defined for 8 AM - 11 AM IST.[39m
+[32m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +29ms[39m
+[31m[Nest] 123243  - [39m04/22/2026, 2:19:50 PM [31m  ERROR[39m [38;5;3m[NestApplication] [39m[31mError: listen EADDRINUSE: address already in use :::3005[39m[38;5;3m +1ms[39m
+node:net:1937
+    const ex = new UVExceptionWithHostPort(err, 'listen', address, port);
+               ^
+
+Error: listen EADDRINUSE: address already in use :::3005
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at Server.listen (node:net:2099:7)
+    at ExpressAdapter.listen (/home/amit/Development/myProject/novaedge-news/backend/node_modules/@nestjs/platform-express/adapters/express-adapter.js:115:32)
+    at /home/amit/Development/myProject/novaedge-news/backend/node_modules/@nestjs/core/nest-application.js:188:30
+    at new Promise (<anonymous>)
+    at NestApplication.listen (/home/amit/Development/myProject/novaedge-news/backend/node_modules/@nestjs/core/nest-application.js:178:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async bootstrap (/home/amit/Development/myProject/novaedge-news/backend/src/main.ts:14:3) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3005
+}
+
+Node.js v22.13.1
